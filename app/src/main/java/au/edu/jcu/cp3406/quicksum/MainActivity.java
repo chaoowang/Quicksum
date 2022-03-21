@@ -28,4 +28,12 @@ public class MainActivity extends AppCompatActivity {
         textView.setText(result);
     }
 
+    public void clearSum(View view){
+        Button button = (Button) view;
+        sum = 0;
+        TextView textView = (TextView) findViewById(R.id.sum);
+        String result = "0";
+        textView.setText(result);
+    }
+
 }
