@@ -30,8 +30,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="42sp"
-                android:text="@string/num_7"
-                android:onClick="buttonClicked"/>
+                android:text="@string/num_7"/>
+<!--                android:onClick="buttonClicked"/>-->
 
             <Button
                 style="?android:attr/buttonBarStyle"
@@ -40,8 +40,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="42sp"
-                android:text="@string/num_8"
-                android:onClick="buttonClicked"/>
+                android:text="@string/num_8"/>
+<!--                android:onClick="buttonClicked"/>-->
 
             <Button
                 style="?android:attr/buttonBarStyle"
@@ -50,8 +50,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="42sp"
-                android:text="@string/num_9"
-                android:onClick="buttonClicked"/>
+                android:text="@string/num_9"/>
+<!--                android:onClick="buttonClicked"/>-->
         </TableRow>
 
         <TableRow
@@ -66,8 +66,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="42sp"
-                android:text="@string/num_4"
-                android:onClick="buttonClicked"/>
+                android:text="@string/num_4"/>
+<!--                android:onClick="buttonClicked"/>-->
 
             <Button
                 style="?android:attr/buttonBarStyle"
@@ -76,8 +76,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="42sp"
-                android:text="@string/num_5"
-                android:onClick="buttonClicked"/>
+                android:text="@string/num_5"/>
+<!--                android:onClick="buttonClicked"/>-->
 
             <Button
                 style="?android:attr/buttonBarStyle"
@@ -86,8 +86,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="42sp"
-                android:text="@string/num_6"
-                android:onClick="buttonClicked"/>
+                android:text="@string/num_6"/>
+<!--                android:onClick="buttonClicked"/>-->
         </TableRow>
 
         <TableRow
@@ -102,8 +102,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="42sp"
-                android:text="@string/num_1"
-                android:onClick="buttonClicked"/>
+                android:text="@string/num_1"/>
+<!--                android:onClick="buttonClicked"/>-->
 
             <Button
                 style="?android:attr/buttonBarStyle"
@@ -112,8 +112,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="42sp"
-                android:text="@string/num_2"
-                android:onClick="buttonClicked"/>
+                android:text="@string/num_2"/>
+<!--                android:onClick="buttonClicked"/>-->
 
             <Button
                 style="?android:attr/buttonBarStyle"
@@ -122,8 +122,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="42sp"
-                android:text="@string/num_3"
-                android:onClick="buttonClicked"/>
+                android:text="@string/num_3"/>
+<!--                android:onClick="buttonClicked"/>-->
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
@@ -133,10 +133,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:id="@+id/clearbtn"
                 android:text="@string/clear"
-                android:textSize="24sp"
-                android:onClick="clearSum"
-                />
+                android:textSize="24sp"/>
+<!--                android:onClick="clearSum"-->
         </TableRow>
 
     </TableLayout>
