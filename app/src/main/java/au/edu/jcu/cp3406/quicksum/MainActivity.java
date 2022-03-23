@@ -23,15 +23,14 @@ public class MainActivity extends AppCompatActivity {
         int number = Integer.parseInt(button.getText().toString());
         sum += number;
 
-        TextView textView = (TextView) findViewById(R.id.sum);
+        TextView textView = findViewById(R.id.sum);
         String result = "" + sum;
         textView.setText(result);
     }
 
     public void clearSum(View view){
-        Button button = (Button) view;
         sum = 0;
-        TextView textView = (TextView) findViewById(R.id.sum);
+        TextView textView = findViewById(R.id.sum);
         String result = "0";
         textView.setText(result);
     }
